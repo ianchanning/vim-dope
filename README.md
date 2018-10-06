@@ -4,7 +4,7 @@
 
 For those who love Tim Pope's plugins, this should give you a rush. 
 
-For anyone starting out with Vim, this is a great set of lightweight plugins. It puts the batteries in without sticking lead on top.
+For anyone starting out with Vim, this is a great set of lightweight plugins. There's lots of beginner Vim `.vimrc` files that can take away some of Vim's lightweight power. This is only meant to get you started, but all these plugins are good examples of how to play nicely with the Vim ecosystem and keep the Vim spirit (at least how I see it).
 
 * [Pathogen][1] - Plugins
 * [Sensible][2] - Vim defaults
@@ -15,6 +15,39 @@ For anyone starting out with Vim, this is a great set of lightweight plugins. It
 * [Unimpaired][7] - Switching buffers, lines, etc
 * [Commentary][8] - Commenting lines
 * [Repeat][9] - Repeat Surround and Unimpaired actions
+
+## Installation
+
+Clone this repository to your home drive and symlink your `~/.vimrc`. 
+
+```sh
+git clone git@github.com:ianchanning/vim-dope.git
+ln -s vim-dope/.vimrc ~/.vimrc
+```
+
+Then either run `light-me-up.sh`: 
+
+```sh
+cd vim-dope
+chmod a+x light-me-up.sh
+./light-me-up.sh
+```
+
+or the following commands:
+
+```sh
+mkdir -p ~/.vim/autoload ~/.vim/bundle
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+cd ~/.vim/bundle
+git clone https://github.com/tpope/vim-sensible.git
+git clone https://github.com/tpope/vim-obsession.git
+git clone https://github.com/tpope/vim-fugitive.git
+git clone https://github.com/tpope/vim-vinegar.git
+git clone https://github.com/tpope/vim-surround.git
+git clone https://github.com/tpope/vim-unimpaired.git
+git clone https://github.com/tpope/vim-commentary.git
+git clone https://github.com/tpope/vim-repeat.git
+```
 
 ## Pope-Promotion
 

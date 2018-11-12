@@ -1,6 +1,4 @@
-# dope
-
-> I like the pope, the pope smokes dope.
+# vim-tim
 
 For those who love Tim Pope's plugins, this should give you a rush. 
 
@@ -21,14 +19,14 @@ For anyone starting out with Vim, this is a great set of lightweight plugins. Th
 Clone this repository to your home drive and symlink your `~/.vimrc`. 
 
 ```sh
-git clone git@github.com:ianchanning/vim-dope.git
-ln -s vim-dope/.vimrc ~/.vimrc
+git clone git@github.com:ianchanning/vim-tim.git
+ln -s vim-tim/.vimrc ~/.vimrc
 ```
 
 Then either run `light-me-up.sh`: 
 
 ```sh
-cd vim-dope
+cd vim-tim
 chmod a+x light-me-up.sh
 ./light-me-up.sh
 ```
@@ -49,15 +47,9 @@ git clone https://github.com/tpope/vim-commentary.git
 git clone https://github.com/tpope/vim-repeat.git
 ```
 
-## Pope-Promotion
+## Tim-Promotion
 
 Like these plugins? Follow the relevant repository on GitHub and vote for it on [vim.org][10]. And if you're feeling especially charitable, follow [tpope][11] on [Twitter][12] and [GitHub][13].
-
-## Pssst...
-
-FZF, Ripgrep and ALE are pretty awesome too.
-
-Buffers (`:help windows`) [are your friend][14].
 
 ## License
 

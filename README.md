@@ -26,9 +26,7 @@ ln -s vim-tim/.vimrc ~/.vimrc
 Then either run `light-me-up.sh`: 
 
 ```sh
-cd vim-tim
-chmod a+x light-me-up.sh
-./light-me-up.sh
+./vim-tim/light-me-up.sh
 ```
 
 or the following commands:
